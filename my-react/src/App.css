@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+ 
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+  
+}
+a{
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.right-hover{
+  background-color: rgb(236, 236, 243);
+}
+.right{
+
+  text-align: center;
+  width: 25pc;
+  height: 16pc;
+  margin: center;
+  margin-left: 38pc;
+  padding-top: 3pc;
+  font-size: 1pc;
+  background:transparent
+  
+}
+main{
+  background: url(321.jpg);
+  background-size: cover;
+
+  text-align: center;
+    color:white;
+    font-size: 7pc;
+    font-size: medium;
+    margin-top: -3pc;
+}
+h1{
+  color: rgb(248, 217, 217);
+  block-size: 8pc;
+  font-size: 8pc;
+
+
+
+}
+p{
+  font-size: 24px;
+  text-align: left;
+  color: rgb(253, 249, 249);
+}
+button:hover{
+    background-color: rgb(70, 70, 60);
+}
+button{
+  font-size: 15px;
+  background-color: rgb(199, 190, 190);
+  border-radius: 1pc;
+}
+h2{
+  color:  rgb(248, 217, 217);
+  text-align: center;
+}
+.form-control{
+  text-align: center;
+  background-color: transparent;
+  color:white;
+  
+}
+.form-control:hover{
+  background-color: white;
+  color: black;
+
+}
